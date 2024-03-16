@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- --main section-- -->
+    <main>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#intro">Работы</a></li>
+            <li><a href="#studio">О студии</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#">Настройки</a></li>
+          </ul>
+        </nav>
+      </header>
+
+        <section class="info">
+            <div class="content">
+              <div class="text">
+                  <h1>Studio Ghibli</h1>
+                  <p>Гибли — это японская студия анимационных фильмов, соучредителями которой являются Исао Такахата, Хаяо Миядзаки, Тошио Сузуки и Ясуёси Токума.<br>
+                  Компания начала свою деятельность в июне 1985 года  в качестве дочернего предприятия Tokuma Shoten Co., Ltd. 
+                  с целью производства анимационных фильмов режиссеров Исао Такахаты и Хаяо Миядзаки.</p>
+              </div>
+          </div>
+        </section>
+    </main>
+
+    <!-- --intro elements-- -->
+
+    <section class="intro" id="intro">
+        <div class="intro__wrap">
+          <h2 class="intro_title">
+            Популярные работы
+          </h2>
+          <div class="intro__cards">
+            <div class="intro__card">
+              <img src="img/1200x675mf.jpg" alt="icin1" class="intro__card-pic">
+              <h3 class="intro__subtitle">
+                Ветер крепчает
+              </h3>
+              <p class="intro__card-desc">
+                Дата релиза: 20 июля 2013
+              </p>
+            </div>
+            <div class="intro__card">
+              <img src="img/ghost.jpg" alt="icin2" class="intro__card-pic">
+              <h3 class="intro__subtitle">
+                Унесенные призраками
+                    </h3>
+              <p class="intro__card-desc">
+                Дата релиза: 8 сентября 2005
+                    </p>
+            </div>
+            <div class="intro__card">
+              <img src="img/scale_1200.jpg" alt="icin3" class="intro__card-pic">
+              <h3 class="intro__subtitle">
+                Ходячий замок
+                    </h3>
+              <p class="intro__card-desc">
+                Дата релиза: 5 сентября 2004   </p>
+            </div>
+            <div class="intro__card">
+              <img src="img/whisper.jpg" alt="icin4" class="intro__card-pic">
+              <h3 class="intro__subtitle">
+                Шепот сердца     
+              </h3>
+              <p class="intro__card-desc">
+                Дата релиза: 22 января 2009     </p>
+            </div>
+            <div class="intro__card">
+              <img src="img/pr.jpg" alt="icin6" class="intro__card-pic">
+              <h3 class="intro__subtitle">
+                Принцесса Мононоке     
+               </h3>
+              <p class="intro__card-desc">
+                Дата релиза: 12 июля 1997
+                    </p>
+            </div>
+            <div class="intro__card">
+              <img src="img/totoro.jpg" alt="icin6" class="intro__card-pic">
+              <h3 class="intro__subtitle">
+                Мой сосед Тоторо
+              </h3>
+              <p class="intro__card-desc">
+                Дата релиза: 16 апреля, 1988
+                </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- <div class="container"></div>
+        <h2 class="h2">Создатели</h2>
+        <ul class="people">
+            <li class="person">
+                <img src="img/ha.jpg" alt="movie" class="movie_">
+                <h3 class="person_title">Хаяо Миядзаки</h3>
+            </li>
+            <li class="person">
+                <img src="img/toshio.webp" alt="movie" class="movie_">
+                <h3 class="person_title">Тошио Сузуки</h3>
+            </li>
+            <li class="person">
+                <img src="img/izhio.webp" alt="movie" class="movie_">
+                <h3 class="person_title">Исао Такахата</h3>
+            </li>
+            <li class="person">
+                <img src="img/yashu.jpg" alt="movie" class="movie_">
+                <h3 class="person_title">Ясуоши Токума</h3>
+            </li>
+        </ul>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+ -->
+
+ <section class="services" id="studio">
+    <div class="services__wrap">
+      <div class="servicec__left">
+        <h3 class="services__title">
+          Здание офиса Studio Ghibli 
+        </h3>   
+        <p class="services__desc">
+          расположено по адресу: 1-4-25, Kajino-cho Koganei-shi, 184 Japan. Спроектировано здание было самим г-ном Миядзаки и введено в эксплуатацию в 1992 году.
+        </p>
+      </div>
+      <div class="services__right">
+        <img src="img/studio.jpg" class="services__right-pic">
+    </div>
+    </div>
+  </section>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
+
+    <footer id="contacts">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <div class="contact-column">
+                    <p>Адрес: Митака, Токио, Япония</p>
+                </div>
+                <div class="contact-column">
+                    <p>Телефон: +1234567890</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+      
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+</body>
+</html>
